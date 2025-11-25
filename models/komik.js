@@ -7,15 +7,15 @@ module.exports = (sequelize, DataTypes) => {
                 autoIncrement: true,
                 primaryKey: true
             },
-            title: {
+            judul: {
                 type: DataTypes.STRING,
                 allowNull: false
             },
-            description: {
+            deskripsi: {
                 type: DataTypes.STRING,
                 allowNull: false
             },
-            author: {
+            penulis: {
                 type: DataTypes.STRING,
                 allowNull: false
             },
